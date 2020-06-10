@@ -102,12 +102,14 @@ class MainActivity : AppCompatActivity() {
         isNewOp = true
     }
 
+    //% button
     fun btnPercent(view: View){
         val number:Double = edtTextNumber.text.toString().toDouble()/100
         edtTextNumber.setText(number.toString())
         isNewOp=true
     }
 
+    //AC button
     fun btnClean(view: View){
         edtTextNumber.setText("0")
         isNewOp=true
